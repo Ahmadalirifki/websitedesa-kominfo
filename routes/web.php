@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AppController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BlogController;
 use Illuminate\Support\Facades\Route;
@@ -16,16 +17,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard.index');
-});
+Route::get('/', [AppController::class, 'index']);
+Route::get('/berita', [AppController::class, 'berita']);
+Route::get('/detailBerita/{slug}', [AppController::class, 'detailBerita']);
 
-Route::get('/berita', function () {
-    return view('dashboard.berita.index');
-});
-Route::get('/detail', function () {
-    return view('dashboard.berita.detail-berita');
-});
 Route::get('/foto', function () {
     return view('dashboard.foto.index');
 });
