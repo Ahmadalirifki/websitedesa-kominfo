@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Button */
+.btn-danger {
+    background-color: red;
+    border-radius: 10px;
+    border-color: red;
+    padding: 10px 45px;
+    color: white;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: red;
+    padding: 10px 45px;
+    color: red;
+}
+
+/* Navbar */
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active {
+    background-color: white;
+    /* border-bottom: 1px solid #bd0001; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+}
+
+.text-nav-active {
+    color: black;
+}
+
+#hero {
+    background-image: url('../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.hero-title {
+    padding: 200px;
+}
+
+/* Responsive Layar Kecil 450 */
+@media screen and (min-width:450px) {
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+/* Responsive Layar Kecil 550 */
+@media screen and (min-width:550px) {
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+/* Responsive Layar Kecil 800 */
+@media screen and (min-width:800px) {
+    .hero-text {
+        font-size: 65px;
+        font-weight: 600;
+    }
+}
+
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
+
+#video {
+    background-image: url("../images/background-video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    background-image: url("../images/kominfo.jpeg");
+}
+
+.stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: white;
+}
