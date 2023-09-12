@@ -1,22 +1,22 @@
-@extends('layouts.app', ['title' => 'Edit Blog'])
+@extends('admin.master')
 
 @section('content')
-    <section style="margin-top: 100px">
+    <section>
         <div class="container col-xxl-8 py-5">
 
             {{-- Navigasi --}}
             <div class="d-flex">
-                <a href="{{ route('blog') }}">Blog</a>
+                <a href="{{ route('blog') }}">Desa</a>
                 <div class="mx-1"> . </div>
-                <a href="">Edit Artikel</a>
+                <a href="">Edit Desa</a>
             </div>
 
-            <h3 class="fw-bold mb-2">Halaman Edit Blog</h3>
+            <h3 class="fw-bold mb-2">Halaman Edit Desa</h3>
 
             <form action="{{ route('blog.update', $artikel->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group mb-4">
-                    <label for="">Masukan Judul</label>
+                    <label for="">Masukan Desa</label>
                     <input type="text" class="form-control @error('judul') is-invalid @enderror" name="judul"
                         id="judul" value="{{ old('judul', $artikel->judul) }}">
                     @error('judul')

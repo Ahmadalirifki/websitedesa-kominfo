@@ -1,11 +1,11 @@
-@extends('layouts.app', ['title' => 'Management Blog'])
+@extends('admin.master')
 
 @section('content')
-    <section style="margin-top: 100px">
+    <section>
         <div class="container col-xxl-8 py-5">
-            <h3 class="fw-bold mb-2">Management Blog</h3>
+            <h3 class="fw-bold mb-2">Management Desa</h3>
 
-            <a href="{{ route('blog.create') }}" class="btn btn-primary">Buat Artikel</a>
+            <a href="{{ route('blog.create') }}" class="btn btn-primary">Tambah Desa</a>
 
             {{-- Pesan Sukses --}}
             @if (session()->has('success'))
@@ -21,7 +21,7 @@
                     <thead>
                         <th>#</th>
                         <th>Image</th>
-                        <th>Judul</th>
+                        <th>Desa</th>
                         <th>Aksi</th>
                     </thead>
                     <tbody>

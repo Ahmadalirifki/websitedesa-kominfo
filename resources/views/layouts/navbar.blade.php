@@ -17,27 +17,20 @@
                     <a class="nav-link active" href="#">Profil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/berita">Berita</a>
+                    <a class="nav-link active" href="/visi">Visi Misi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Prestasi</a>
+                    <a class="nav-link active" href="/berita">Daftar Kecamatan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Kontak</a>
+                    <a class="nav-link active" href="#footer">Kontak</a>
                 </li>
             </ul>
             <div class="d-flex">
-                @auth
-                    <form action="/logout" method="POST">
-                        @csrf
-                        <button class="btn btn-primary" type="submit">Logout</button>
-                    </form>
-                @else
-                    <button class="btn btn-danger" type="submit">Register</button>
-                @endauth
+                <form action="/login" method="GET">
+                    @csrf
+                    <button class="btn btn-primary" type="submit">Login</button>
+                </form>
             </div>
         </div>
     </div>

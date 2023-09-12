@@ -5,14 +5,14 @@
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center mb-3">
                         <div class="stripe me-2"></div>
-                        <h5>Daftar Kominfo yea</h5>
+                        <h5>Lamongan Megilan</h5>
                     </div>
-                    <h1 class="fw-bold mb-2">GAbung Bersama kami anjay</h1>
-                    <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum nesciunt vel
-                        non ratione.
-                        Perferendis, architecto eius beatae temporibus voluptatum neque velit mollitia facilis voluptate
-                        incidunt aperiam animi illum minima totam.</p>
-                    <button class="btn btn-outline-danger">Register</button>
+                    <h1 class="fw-bold mb-2">Mengabdi Untuk Masyarakat Transparasi, Pelayanan dan Inovasi</h1>
+                    <p class="mb-3">Disini, kami berkomitmen untuk menjadi jembatan yang menghubungkan pemerintahan
+                        daerah dengan seluruh masyarakat. Kami percaya bahwa pemerintah yang baik harus transparasi,
+                        pelayanan terbaik dan inovasi yang berkelanjutan dengan semangat mengabdi dan berlandaskan
+                        integritas, kami berupaya memberikan informasi yang jelas dan terpercaya tentang kebijakan,
+                        program serta proyek-proyek yang sedang berjalan.</p>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid"

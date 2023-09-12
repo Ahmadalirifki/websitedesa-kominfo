@@ -1,22 +1,21 @@
-@extends('layouts.app', ['title' => 'Create Blog'])
-
+@extends('admin.master')
 @section('content')
-    <section style="margin-top: 100px">
+    <section>
         <div class="container col-xxl-8 py-5">
 
             {{-- Navigasi --}}
             <div class="d-flex">
-                <a href="{{ route('blog') }}">Blog</a>
+                <a href="{{ route('blog') }}">Desa</a>
                 <div class="mx-1"> . </div>
-                <a href="">Buat Artikel</a>
+                <a href="">Tambah Desa</a>
             </div>
 
-            <h3 class="fw-bold mb-2">Halaman Create Blog</h3>
+            <h3 class="fw-bold mb-2">Halaman Tambah Desa</h3>
 
             <form action="{{ route('blog.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group mb-4">
-                    <label for="">Masukan Judul</label>
+                    <label for="">Masukan Desa</label>
                     <input type="text" class="form-control @error('judul') is-invalid @enderror" name="judul"
                         id="judul" value="{{ old('judul') }}">
                     @error('judul')
