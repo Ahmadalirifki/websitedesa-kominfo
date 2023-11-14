@@ -27,11 +27,13 @@
                     <div class="d-flex">
                         <ul class="nav flex-column me-5">
                             <li class="nav-item mb-2">
-                                <a style="text-decoration: none" href=""><i class="bi bi-instagram"></i>
+                                <a style="text-decoration: none" href="https://www.instagram.com/lamongankab/"><i 
+                                    class="bi bi-instagram"></i>
                                     Instagram</a>
                             </li>
                             <li class="nav-item mb-2">
-                                <a style="text-decoration: none" href=""><i class="bi bi-youtube"></i>
+                                <a style="text-decoration: none" href="https://www.youtube.com/@lamongantv4777"><i 
+                                    class="bi bi-youtube"></i>
                                     Youtube</a>
                             </li>
                             <li class="nav-item mb-2">

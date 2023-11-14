@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid"
-                        src="https://img.freepik.com/free-photo/front-view-woman-playing-badminton_23-2149733044.jpg?w=1060&t=st=1694112498~exp=1694113098~hmac=242fadffba024e28b2be51c3614df3c72d17cb95cc525ee235c5e75184a75971"
+                        src="https://jatimpedia.id/wp-content/uploads/2022/08/IMG-20220830-WA0098-800x445.jpg"
                         alt="">
                 </div>
             </div>

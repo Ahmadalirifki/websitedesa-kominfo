@@ -14,9 +14,6 @@
                     <a class="nav-link active" href="/">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Profil</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link active" href="/visi">Visi Misi</a>
                 </li>
                 <li class="nav-item">
